@@ -1,4 +1,6 @@
 ---
+environment_variables:
+  SUNET_DOCKER_HOSTER_VERSION: "v1"
 git:
   branch: master
 triggers:
