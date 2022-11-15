@@ -1,0 +1,13 @@
+---
+environment_variables:
+  SUNET_DOCKER_HOSTER_VERSION: "1.0"
+git:
+  branch: master
+triggers:
+  cron: "@daily"
+clean_workspace: true
+script:
+  - echo "Build SUNET Docker-Hoster Image"
+builders:
+  - docker
+docker_name: sunet/docker-hoster
