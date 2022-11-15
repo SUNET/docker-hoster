@@ -2,7 +2,7 @@
 environment_variables:
   SUNET_DOCKER_HOSTER_VERSION: "v1"
 git:
-  branch: master
+  branch: develop
 triggers:
   cron: "@daily"
 clean_workspace: true
